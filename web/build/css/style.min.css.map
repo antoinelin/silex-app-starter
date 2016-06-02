@@ -1,0 +1,1 @@
+{"version":3,"sources":["sass/app.css"],"names":[],"mappings":"AAAA,2DACA,GACE,WAEF,KACE,qBAEF,GACE,2BACQ","file":"style.min.css","sourcesContent":["@import url(../../vendor/libs/bootstrap/css/bootstrap.css);\nh2 {\n  color: blue; }\n\nbody {\n  background-color: red; }\n\nh1 {\n  -webkit-transform: scale(2);\n          transform: scale(2); }\n"],"sourceRoot":"/source/"}

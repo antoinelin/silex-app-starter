@@ -1,0 +1,29 @@
+{
+    "require": {
+      "silex/silex": "<1.2.2",
+      "twig/twig": "~1.13,>=1.13.1",
+      "moust/silex-cache": "1.0.*@dev",
+      "symfony/twig-bridge": "~2.5",
+      "symfony/templating": "~2.6",
+      "silex/web-profiler" : "1.0.6",
+      "monolog/monolog": ">=1.0.0",
+      "symfony/monolog-bridge": "v2.4.2",
+      "symfony/browser-kit": "~2.3",
+      "symfony/console": "~2.3",
+      "symfony/config": "~2.3",
+      "symfony/css-selector": "~2.3",
+      "symfony/dom-crawler": "~2.3",
+      "symfony/filesystem": "~2.3",
+      "symfony/finder": "~2.3",
+      "symfony/form": "~2.3",
+      "symfony/locale": "~2.3",
+      "symfony/process": "~2.3",
+      "symfony/security": "~2.3",
+      "symfony/serializer": "~2.3",
+      "symfony/translation": "~2.3",
+      "symfony/validator": "~2.3",
+      "doctrine/dbal": ">=2.2.0,<2.4.0-dev",
+      "swiftmailer/swiftmailer": "5.*",
+      "firedog/firedog": "dev-master"
+    }
+}
