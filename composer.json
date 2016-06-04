@@ -25,5 +25,14 @@
       "doctrine/dbal": ">=2.2.0,<2.4.0-dev",
       "swiftmailer/swiftmailer": "5.*",
       "firedog/firedog": "dev-master"
+    },
+    "require-dev": {
+      "symfony/var-dumper": "~3.1"
+    },
+    "autoload": {
+      "psr-4":{
+        "Models\\": "src/Models",
+        "Controller\\": "src/Controller/"
+      }
     }
 }

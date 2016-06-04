@@ -1,4 +1,5 @@
 <?php
+
 namespace Controller;
 
 use Symfony\Component\HttpFoundation\Response;
@@ -13,11 +14,10 @@ class BasicController
 
   public function index()
   {
-    return new Response($this->app['twig']->render('sceleton.twig'));
+    return new Response($this->app['twig']->render('home.twig'));
   }
   public function hello()
   {
     return new Response($this->app['twig']->render('hello.twig'));
   }
-
 }

@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dev
- * Date: 1/6/16
- * Time: 14:54 PM
- */
+
 
 class Config {
   public static $setting = array(

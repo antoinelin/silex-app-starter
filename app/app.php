@@ -44,5 +44,10 @@ $app->get('/hello', function() use ($app) {
 })
 ->bind('hello');
 
+$app->get('/test', function() use ($app) {
+    $ob = new Controller\TestController($app);
+    return $ob->test();
+})
+->bind('test');
 
 return $app;

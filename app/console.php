@@ -1,4 +1,4 @@
-#!/usr/bin/env php
+
 <?php
 // set to run indefinitely if needed
 set_time_limit(0);
@@ -14,12 +14,14 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
     'db.options' => array(
         'driver'    => 'pdo_mysql',
         'host'      => 'localhost',
-        'dbname'    => 'hetic_devoirt3',
+        'dbname'    => 'hetic_pokedex',
         'user'      => $config['db']['user'],
         'password'  => $config['db']['pass'],
         'charset'   => 'utf8',
     )
 ));
+
+$app['db']->setFetchMode(PDO::FETCH_OBJ);
 
 $application = new Application();
 $application->add(new \MyCommand\InstallDBCommand($app));
